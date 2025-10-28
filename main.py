@@ -27,7 +27,7 @@ def delete_message(context: CallbackContext, chat_id, message_id):
 
 
 def get_job_name(child, parent="root"):
-    return f"{parent}_{child}"
+    return f"{parent}_{child}_job"
 
 
 def start(update: Update, context: CallbackContext) -> None:
